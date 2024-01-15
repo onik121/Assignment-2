@@ -8,6 +8,20 @@
     font-family: 'Mulish', sans-serif;
 }
 
+/*--common for multiple sections--*/
+
+button{
+    background-color: #ffc800;
+    border: none;
+    color: white;
+    padding: 13px 25px;
+    border-radius: 5px;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+/*---end---*/
+
 
 .hero{
     width: 100%;
@@ -156,7 +170,7 @@ main{
 }
 
 .popular-tour-text{
-    border: 1px solid black;
+    border: px solid black;
     width: 50%;
 }
 
@@ -190,7 +204,6 @@ main{
 
 
 .popular-tour-img{
-    border: 1px solid green;
     width: 50%;
     display: flex;
     align-items: center;
@@ -200,4 +213,189 @@ main{
 .popular-tour-img img{
     width: 90%;
     height: 100%;
+}
+
+/*----*/
+
+
+
+
+
+
+/*-----*/
+.destination{
+    margin-bottom: 50px;
+    height: auto;
+}
+
+.Des div{
+    margin: 12.5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.Des div h1{
+    font-size:28px;
+    font-weight: 800;
+}
+
+.destination-1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.destination-1 div{
+    width: 50%;
+    height: 300px;
+    width: calc( (100% - 25px)/2);
+    border-radius: 16px;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: cover !important;
+}
+
+.destination-1 div:first-child{
+    background: url(../Images/Rectangle\ 5.png);
+}
+
+.destination-1 div:last-child{
+    background: url(../Images/Rectangle\ 8.png);
+}
+
+
+.destination-3 div:first-child{
+    background: url(../Images/Rectangle\ 11.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 43%;
+    width: calc( (43% - 12.5px)/1) !important;
+}
+
+.destination-3 div:last-child{
+    background: url(../Images/Rectangle\ 10.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 57%;
+    width: calc( (57% - 12.5px)/1) !important;
+}
+
+.onik{
+    height: auto;
+    display: grid;
+    grid-template-columns: 32% 42% 26%;
+}
+
+.onik div{
+    border-radius: 16px;
+    height: 300px;
+}
+
+.onik div:first-child{
+    background: url(../Images/Rectangle\ 6.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: calc(100% - 25px)!important;
+}
+
+.onik div:nth-child(2){
+    background: url(../Images/Rectangle\ 7.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: calc(100% - 25px)!important;
+}
+
+.onik div:last-child{
+    background: url(../Images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+/*-----*/
+
+
+
+
+
+/*----*/
+.discount{
+    border: px solid red;
+    width: 100%;
+    height: auto;
+}
+
+.discount-1{
+    width: 100%;
+    min-height: 500px;
+    background: url(../Images/Group\ 39.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 55px;
+    margin: 25px 0px;
+    border-radius: 16px;
+}
+
+.discount-2{
+    background: url(../Images/Group\ 40.png);
+    justify-content: flex-start;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 55px;
+}
+
+.discount-box{
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 579px;
+    min-height: 389px;
+    padding: 55px;
+    display: flex;
+    align-items: center;
+}
+
+
+.discount-box span{
+    margin-right: 15px;
+}
+
+.discount-box span i{
+    color: #ffc800;
+    padding-right: 5px;
+}
+
+.discount-box h3{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+.discount-box p{
+    color: #5A5A5D;
+    font-size: 17px;
+    font-weight: 400;
+    margin: 15px 0px;
+}
+
+.discount-box h4{
+    color: #ffc800;
+    font-size: 20px;
+    font-weight: 800;
 }

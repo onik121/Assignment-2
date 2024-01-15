@@ -18,6 +18,49 @@
 
 }
 
+
+@media screen and (max-width:767px)  {
+    .destination-1 div{
+        width: 100% !important;   
+    }
+
+    .destination-3 div:first-child{
+        width: 100% !important;
+    }
+    
+    .destination-3 div:last-child{
+        width: 100% !important;
+    }
+
+    .onik{
+        height: auto;
+        grid-template-columns: 100%;
+    }
+
+    .onik div{
+        margin: px 0px;
+    }
+
+    .onik div:first-child{
+        width: calc(100% - 0px)!important;
+    }
+    
+    .onik div:nth-child(2){
+        width: calc(100% - 0px)!important;
+    }
+
+    .discount-box span{
+        display: block;
+        padding-bottom: 10px;
+    }
+
+    .discount-box h3{
+        margin-top: 10px;
+    }
+}
+
+
+
 @media screen and (max-width:585px)  {
     .popular-tour-img img{
         width: 100%;
