@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+
+.hero{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0px 20px;
+}
+
+.hero-div{
+    max-width: 1170px;
+    min-height: 500px;
+    border-radius: 15px;
+    margin: 0px auto;
+    background: url(../Images/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+}
+
+.hero-overlay{
+    width: 100%;
+    min-height: 500px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 25px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.hero-content{
+    max-width: 750px;
+}
+
+.hero-content h1{
+    color: white;
+    font-size: 55px;
+}
+
+.hero-content p{
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
+
+.hero-form{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 15px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-form input{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    height: 47px;
+    width: 175px;
+    padding: 10px;
+    padding-left: 12px;
+    margin: 0px 8px;
+}
+
+.hero-form input::placeholder{
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+.hero-form select{
+    appearance: none;
+    width: 175px;
+    height: 47px;
+    padding-left: 12px;
+    color: black;
+    border-radius: 5px;
+    background-image: url("../Images/down-arrow.png");
+    background-repeat: no-repeat;
+    background-position: 147px 16px;
+    outline: none;
+    border: none;
+    margin: 0px 8px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+select option{
+    background-color: white;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.selected{
+    display: none;
+}
+
+.hero-form button{
+    background-color: #ffc800;
+    border: none;
+    color: white;
+    padding: 13px 25px;
+    border-radius: 5px;
+    font-size: 17px;
+    margin: 0px 8px;
+}
+
+.hero-form button i{
+    padding-right: 10px;
+}
+
+/*-----*/
+
+
+
+
+
+
+
+/*-----*/
