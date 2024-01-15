@@ -96,7 +96,7 @@
     border-radius: 5px;
     background-image: url("../Images/down-arrow.png");
     background-repeat: no-repeat;
-    background-position: 147px 16px;
+    background-position: 95% 16px;
     outline: none;
     border: none;
     margin: 0px 8px;
@@ -137,3 +137,67 @@ select option{
 
 
 /*-----*/
+
+main{
+    max-width: 1210px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+
+.popular-tour{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.popular-tour-text{
+    border: 1px solid black;
+    width: 50%;
+}
+
+
+.popular-tour-text h1{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.popular-tour-text p, ul li{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 17px;
+    font-weight: 500;
+    padding: 13px 0px;
+}
+
+.popular-tour-text ul li {
+    margin-left: 18px;
+}
+
+.popular-tour-text button{
+    background-color: #ffc800;
+    border: none;
+    color: white;
+    padding: 13px 25px;
+    border-radius: 5px;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+
+.popular-tour-img{
+    border: 1px solid green;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.popular-tour-img img{
+    width: 90%;
+    height: 100%;
+}
