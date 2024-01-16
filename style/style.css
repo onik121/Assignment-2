@@ -512,7 +512,6 @@ main{
 /*----*/
 
 .place{
-    border: px solid red;
     width: 100%;
     height: auto;
     display: flex;
@@ -525,14 +524,12 @@ main{
     width: 50%;
     min-height: 425px;
     width: calc( (100% - 25px)/2);
-    border: px solid red;
 }
 
 .place-text{
     display: flex;
     align-items: center;
 }
-
 
 .place-text h1{
     color: #131318;
