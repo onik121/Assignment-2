@@ -98,6 +98,10 @@
         padding: 40px;
     }
 
+    .Testimonial-div > div{
+        width: 100% !important;
+    }
+
     .place > div{
         width: 100% !important;
         height: auto;
@@ -163,6 +167,10 @@
 
     .discount-box{
         padding: 30px;
+    }
+
+    .Newsletter{
+        margin-bottom: 25px;
     }
 
     .Newsletter-img > div{
