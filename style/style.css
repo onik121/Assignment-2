@@ -518,6 +518,15 @@ main{
     padding: 55px;
 }
 
+.discount-3{
+    background: url(../Images/Testimonials.jpg);
+    justify-content: flex-start;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 55px;
+}
+
 .discount-box{
     border-radius: 16px;
     border: 2px solid #FFF;
@@ -606,7 +615,7 @@ main{
     padding: 25px;
     background: url(../Images/quote.png);
     background-repeat: no-repeat;
-    background-position: 95% 95%;
+    background-position: 96% 96%;
     background-size: 40px;
 }
 

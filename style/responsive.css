@@ -129,6 +129,10 @@
         margin-top: 5px;
     }
 
+    .place-text{
+        margin-bottom: 20px;
+    }
+
 }
 
 
@@ -169,6 +173,10 @@
         padding: 30px;
     }
 
+    .place{
+        margin: 25px 0px;
+    }
+
     .Newsletter{
         margin-bottom: 25px;
     }
@@ -186,10 +194,16 @@
     .Newsletter-img h1{
         font-size: 24px;
     }
+
+    footer{
+        padding: 33px 20px;
+     }
+     
 }
 
 
-@media screen and (max-width:466px) {
+
+@media screen and (max-width:px) {
     .place-text{
         margin-bottom: 20px;
     }
