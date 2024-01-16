@@ -247,6 +247,11 @@
         font-size: 15px;
     }
 
+    .discount-1{
+        min-height: 550px;
+        align-items: end;
+    }
+
     .discount-box{
         padding: 30px;
     }
@@ -346,8 +351,7 @@
 }
 
 
-
-@media screen and (max-width:380px) {
+@media screen and (max-width:450px) {
 
     .discount-1{
         padding: 25px !important;
@@ -356,6 +360,12 @@
     .discount-box{
         padding: 18px;
     }
+
+}
+
+
+
+@media screen and (max-width:380px) {
 
     .Testimonials{
         padding: 20px 20px;
