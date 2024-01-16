@@ -169,8 +169,18 @@
         margin-top: 8px;
     }
 
+    .service{
+        margin-bottom: 25px;
+        margin-top: 10px;
+    }
+
     .discount-box{
         padding: 30px;
+    }
+
+    .Testimonials{
+        margin-top: 25px;
+        padding: 30px 30px;
     }
 
     .place{
@@ -203,14 +213,12 @@
 
 
 
-@media screen and (max-width:px) {
-    .place-text{
-        margin-bottom: 20px;
-    }
-}
-
-
 @media screen and (max-width:380px) {
+
+    .discount-1{
+        padding: 25px !important;
+    }
+
     .discount-box{
         padding: 18px;
     }
