@@ -72,16 +72,16 @@
         width: 100% !important;
     }
 
-    .onik{
+    .destination-2{
         height: auto;
         grid-template-columns: 100%;
     }
 
-    .onik div:first-child{
+    .destination-2 div:first-child{
         width: calc(100% - 0px)!important;
     }
     
-    .onik div:nth-child(2){
+    .destination-2 div:nth-child(2){
         width: calc(100% - 0px)!important;
     }
 

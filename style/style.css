@@ -369,18 +369,18 @@ main{
     width: calc( (57% - 12.5px)/1) !important;
 }
 
-.onik{
+.destination-2{
     height: auto;
     display: grid;
     grid-template-columns: 32% 42% 26%;
 }
 
-.onik div{
+.destination-2 div{
     border-radius: 16px;
     height: 300px;
 }
 
-.onik div:first-child{
+.destination-2 div:first-child{
     background: url(../Images/Rectangle\ 6.png);
     background-repeat: no-repeat;
     background-position: center center;
@@ -388,7 +388,7 @@ main{
     width: calc(100% - 25px)!important;
 }
 
-.onik div:nth-child(2){
+.destination-2 div:nth-child(2){
     background: url(../Images/Rectangle\ 7.png);
     background-repeat: no-repeat;
     background-position: center center;
@@ -396,7 +396,7 @@ main{
     width: calc(100% - 25px)!important;
 }
 
-.onik div:last-child{
+.destination-2 div:last-child{
     background: url(../Images/Rectangle\ 9.png);
     background-repeat: no-repeat;
     background-position: center center;
