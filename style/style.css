@@ -43,17 +43,67 @@ button{
 
 
 
-.hero{
-    width: 100%;
+
+
+
+
+header{
+    max-width: 1210px;
     height: auto;
-    margin-top: 50px;
+    margin: 0 auto;
     padding: 0px 20px;
 }
 
+/*--menu start---*/
+nav{
+    display: flex;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+nav div{
+    width: 50%;
+}
+
+.menu {
+    text-align: end;
+}
+
+.menu li{
+    list-style: none;
+    display: inline-flex;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #131318;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0px 22px;
+}
+
+.active{
+    color: #ffc800 !important;
+}
+
+.menu li a:last-child{
+    padding-right: 0px;
+}
+
+.icon{
+    display: none !important;
+}
+
+/*--menu end--*/
+
+
+
+
+/*---hero section--*/
 .hero-div{
-    max-width: 1170px;
+    width: 100%;
     min-height: 500px;
-    border-radius: 15px;
+    border-radius: 16px;
     margin: 0px auto;
     background: url(../Images/hero.png);
     background-repeat: no-repeat;
@@ -160,23 +210,28 @@ select option{
 .hero-form button i{
     padding-right: 10px;
 }
+/*--hero section end---*/
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*-----*/
-
-
-
-
-
-
-
-/*-----*/
-
 main{
     max-width: 1210px;
     height: auto;
     margin: 0 auto;
     padding: 0px 20px;
 }
+
 
 
 .popular-tour{
@@ -232,8 +287,10 @@ main{
     width: 90%;
     height: 100%;
 }
-
 /*----*/
+
+
+
 
 
 
@@ -509,6 +566,8 @@ main{
 
 
 
+
+
 /*----*/
 
 .place{
@@ -575,6 +634,9 @@ main{
     text-align: center;
 }
 /*----*/
+
+
+
 
 
 
@@ -689,3 +751,4 @@ main{
     font-weight: 800;
     margin-top: -10px;
 }
+/*-----*/

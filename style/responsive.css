@@ -1,6 +1,15 @@
 
 @media screen and (max-width:992px) {
 
+    nav div:first-child{
+        width: 30%;
+    }
+
+    nav div:last-child{
+        width: 70%;
+    }
+
+
     .popular-tour-text{
         width: 100%;
     }
@@ -41,6 +50,17 @@
 
 
 @media screen and (max-width:767px)  {
+
+    .menu li {
+        display: none;
+    }
+
+    .icon{
+        display: block !important;
+        font-size: 25px;
+        color: #131318;
+    }
+
     .destination-1 div{
         width: 100% !important;   
     }
