@@ -565,10 +565,9 @@ main{
 
 
 
-/*--Testimonials end--*/
 
+/*--Testimonials end--*/
 .Testimonials{
-    border: px solid red;
     padding: 40px 30px;
     background: rgba(19, 19, 24, 0.05);
     margin-top: 100px;
@@ -591,16 +590,18 @@ main{
 .Testimonial-div{
     display: flex;
     flex-wrap: wrap !important;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
 }
 
 .Testimonial-div > div{
     background-color: white;
+    min-width: 300px;
     width: calc( (100% - 50px)/3);
 }
 
 .Testimonial-box{
-    border: px solid #ffc800;
     border-radius: 16px;
     padding: 25px;
     background: url(../Images/quote.png);

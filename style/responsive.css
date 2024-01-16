@@ -200,4 +200,16 @@
     .discount-box{
         padding: 18px;
     }
+
+    .Testimonials{
+        padding: 20px 20px;
+    }
+
+    .Testimonial-box{
+        padding: 20px;
+    }
+
+    .Testimonial-div > div{
+        min-width: auto !important;
+    }
 }
