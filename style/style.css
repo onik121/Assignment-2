@@ -504,3 +504,118 @@ main{
 }
 
 /*----*/
+
+
+
+
+
+
+/*--Newsletter---*/
+
+.Newsletter{
+    width: 100%;
+    height: 425px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.Newsletter-text{
+    width: 40%;
+    height: 100%;
+    padding: 40px;
+    border-radius: 16px;
+    border: 2px solid #ffc800;
+    width: calc((40% - 12.5px)/1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Newsletter-text h3{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.Newsletter-text p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 15px;
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    margin: 25px 0px;
+}
+
+.Newsletter-text input{
+    width: 100%;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    outline: none;
+    margin-bottom: 15px;
+    padding: 0px 15px;
+}
+
+.Newsletter-text input::placeholder{
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.Newsletter-text button{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.Newsletter-img{
+    width: 60%;
+    height: 100%;
+    border-radius: 16px;
+    background: url(../Images/Newsletter.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: calc((60% - 12.5px)/1);
+    position: relative;
+}
+
+.Newsletter-img > div{
+    border-radius: 16px;
+    background: #ffc800;
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    position: absolute;
+    bottom: 50px;
+    right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.Newsletter-img p{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: -10px;
+}
+
+.Newsletter-img h1{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+    margin-top: -10px;
+}

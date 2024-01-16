@@ -16,17 +16,25 @@
         height: 100%;
     }
 
+    .Newsletter-text{
+        padding: 25px;
+    }
+
 }
 
 
 @media screen and (max-width:850px)  {
-    
+
     .discount-1{
         justify-content: center;
     }
     
     .discount-2{
         justify-content: center;
+    }
+
+    .Newsletter-text{
+        padding: 20px;
     }
 
 }
@@ -74,6 +82,15 @@
     .discount-box h3{
         margin-top: 10px;
     }
+
+    .Newsletter-text{
+        width: 100% !important;
+        margin-bottom: 30px;
+    }
+    
+    .Newsletter-img{
+        width: 100% !important;
+    }
 }
 
 
@@ -104,5 +121,19 @@
         width: 100%;
         margin-left: 0px;
         margin-top: 8px;
+    }
+
+    .Newsletter-img > div{
+        width: 250px;
+        height: 100px;
+        bottom: 40px;
+    }
+
+    .Newsletter-img p{
+        font-size: 20px;
+    }
+    
+    .Newsletter-img h1{
+        font-size: 24px;
     }
 }
