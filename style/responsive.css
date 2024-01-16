@@ -222,6 +222,10 @@
         font-size:23px;
     }
 
+    .discount-button{
+        display: none;
+    }
+
     .service{
         margin-bottom: 25px;
         margin-top: 10px;

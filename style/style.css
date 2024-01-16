@@ -18,6 +18,7 @@ button{
     border-radius: 5px;
     font-size: 17px;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 .section-title{
@@ -545,7 +546,6 @@ main{
     align-items: center;
 }
 
-
 .discount-box span{
     margin-right: 15px;
 }
@@ -573,6 +573,12 @@ main{
     color: #ffc800;
     font-size: 20px;
     font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.discount-button{
+    text-align: center;
+    margin-top: 40px;
 }
 /*----*/
 
