@@ -2,11 +2,11 @@
 @media screen and (max-width:992px) {
 
     nav div:first-child{
-        width: 30%;
+        width: 25%;
     }
 
     nav div:last-child{
-        width: 70%;
+        width: 75%;
     }
 
     .popular-tour-text{
