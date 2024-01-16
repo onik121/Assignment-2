@@ -9,7 +9,6 @@
         width: 70%;
     }
 
-
     .popular-tour-text{
         width: 100%;
     }
@@ -120,6 +119,10 @@
 
 @media screen and (max-width:610px) {
     
+    .hero-content h1{
+        font-size: 50px;
+    }
+
     .discount-box span{
         display: block;
         padding-bottom: 12px;
@@ -137,6 +140,11 @@
 
 
 @media screen and (max-width:585px)  {
+
+    .hero-content h1{
+        font-size: 45px;
+    }
+
     .popular-tour-img img{
         width: 100%;
         height: 100%;
@@ -145,6 +153,8 @@
     .discount-box{
         padding: 35px;
     }
+
+    
     
 }
 
@@ -217,8 +227,36 @@
         margin-top: 10px;
     }
 
+    .service-div div h2{
+        font-size: 22px;
+    }
+    
+    .service-div div p{
+        font-size: 15px;
+    }
+
+    .service-div-last h2{
+        font-size: 22px;
+    }
+    
+    .service-div-last p{
+        font-size: 15px;
+    }
+
     .discount-box{
         padding: 30px;
+    }
+
+    .discount-box h3{
+        font-size: 22px;
+    }
+    
+    .discount-box p{
+        font-size: 15px;
+    }
+    
+    .discount-box h4{
+        font-size: 17px;
     }
 
     .Testimonials{
@@ -226,8 +264,37 @@
         padding: 30px 30px;
     }
 
+    .Testimonial-title h1{
+        font-size: 25px;
+    }
+    
+    .Testimonial-title p{
+        font-size: 15px;
+    }
+
+        
+    .Testimonial-box > p{
+        font-size: 15px;
+    }
+
     .place{
         margin: 25px 0px;
+    }
+
+    .place-text h1{
+        font-size: 25px;
+    }
+    
+    .place-text p{
+        font-size: 15px;
+    }
+
+    .place-text ul li {
+        font-size: 15px;
+    }
+
+    .place-img h1{
+        font-size: 22px;
     }
 
     .Newsletter{
@@ -248,12 +315,28 @@
         font-size: 24px;
     }
 
+    .Newsletter-text h3{
+        font-size: 25px;
+    }
+    
+    .Newsletter-text p{
+        font-size: 15px;
+    }
+
     footer{
         padding: 33px 20px;
     }
 
     .footer-line{
         margin: 25px auto;
+    }
+
+    .footer-content p{
+        font-size: 15px;
+    }
+    
+    footer p{
+        font-size: 15px;
     }
      
 }
