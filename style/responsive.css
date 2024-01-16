@@ -159,7 +159,7 @@
 }
 
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:600px) {
 
     .section-title h1{
         font-size: 25px;
@@ -250,6 +250,14 @@
     .discount-1{
         min-height: 550px;
         align-items: end;
+    }
+
+    .discount-1{
+        padding: 30px !important;
+    }
+
+    .discount-box{
+        padding: 20px;
     }
 
     .discount-box{
